@@ -1,0 +1,17 @@
+/META.yml
+/MYMETA.*
+/blib/
+/inc/
+/pm_to_blib
+/MANIFEST.bak
+/Makefile
+/Makefile.old
+*.old
+*.swp
+~$
+/String-CRC32*tar.gz
+cover_db
+end_to_end.*
+examples/
+CRC32.c
+CRC32.o

@@ -14,8 +14,8 @@ WriteMakefile(
         resources => {
             license    => 'http://dev.perl.org/licenses/',
             homepage   => 'https://metacpan.org/module/String::CRC32',
-            bugtracker => 'https://github.com/Humanstate/string-crc32/issues',
-            repository => 'https://github.com/Humanstate/string-crc32'
+            bugtracker => 'https://github.com/leejo/string-crc32/issues',
+            repository => 'https://github.com/leejo/string-crc32'
         },
     },
 );

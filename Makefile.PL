@@ -8,11 +8,11 @@ WriteMakefile(
 	'DISTNAME' => 'String-CRC32',
 	'OBJECT' => 'CRC32.o',
 	'dist'   => {COMPRESS=>'gzip', SUFFIX=>'gz'},
-    'LICENSE' => 'perl',
+    'LICENSE' => 'unrestricted',
 	VERSION_FROM => 'CRC32.pm',
     META_MERGE => {
         resources => {
-            license    => 'http://dev.perl.org/licenses/',
+            license    => 'https://wiki.creativecommons.org/wiki/Public_domain',
             homepage   => 'https://metacpan.org/module/String::CRC32',
             bugtracker => 'https://github.com/leejo/string-crc32/issues',
             repository => 'https://github.com/leejo/string-crc32'

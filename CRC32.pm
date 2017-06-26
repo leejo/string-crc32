@@ -13,7 +13,7 @@ use vars qw/ @ISA $VERSION @EXPORT_OK @EXPORT /;
 
 $VERSION = 1.5_02;
 
-# Items to export into callers namespace by default
+# Items to export into caller's namespace by default
 @EXPORT = qw(crc32);
 
 # Other items we are prepared to export if requested

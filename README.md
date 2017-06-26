@@ -1,6 +1,6 @@
 # NAME
 
-String::CRC32 - Perl interface for cyclic redundency check generation
+String::CRC32 - Perl interface for cyclic redundancy check generation
 
 # SYNOPSIS
 
@@ -19,7 +19,7 @@ String::CRC32 - Perl interface for cyclic redundency check generation
 
 # DESCRIPTION
 
-The **CRC32** module calculates CRC sums of 32 bit lenghts.
+The **CRC32** module calculates CRC sums of 32 bit lengths.
 It generates the same CRC values as ZMODEM, PKZIP, PICCHECK and
 many others.
 
@@ -43,7 +43,7 @@ You may even check files:
     $crc = crc32(*SOMEFILE);
     close(SOMEFILE);
 
-A init value may also been supplied in the above example.
+A init value may also have been supplied in the above example.
 
 # AUTHOR
 

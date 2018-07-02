@@ -15,3 +15,4 @@ end_to_end.*
 examples/
 CRC32.c
 CRC32.o
+CRC32.bs

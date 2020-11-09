@@ -11,15 +11,16 @@ String::CRC32 - Perl interface for cyclic redundancy check generation
 
     $somestring = "some string";
     $crc = crc32($somestring);
+    printf "%08x\n", $crc;
 
-    open(SOMEFILE, "location/of/some.file");
-    binmode SOMEFILE;
-    $crc = crc32(*SOMEFILE);
-    close(SOMEFILE);
+    open my $fh, '<', 'location/of/some.file' or die $!;
+    binmode $fh;
+    $crc = crc32($fh);
+    close $fh;
 
 # DESCRIPTION
 
-The **CRC32** module calculates CRC sums of 32 bit lengths.
+The **CRC32** module calculates CRC sums of 32 bit lengths as integers.
 It generates the same CRC values as ZMODEM, PKZIP, PICCHECK and
 many others.
 
@@ -38,10 +39,10 @@ This is useful for subsequent CRC checking of substrings.
 
 You may even check files:
 
-    open(SOMEFILE, "location/of/some.file");
-    binmode SOMEFILE;
-    $crc = crc32(*SOMEFILE);
-    close(SOMEFILE);
+    open my $fh, '<', 'location/of/some.file' or die $!;
+    binmode $fh;
+    $crc = crc32($fh);
+    close $fh;
 
 A init value may also have been supplied in the above example.
 

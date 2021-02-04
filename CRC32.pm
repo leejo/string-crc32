@@ -11,7 +11,7 @@ use vars qw/ @ISA $VERSION @EXPORT_OK @EXPORT /;
 
 @ISA = qw(Exporter);
 
-$VERSION = 2.000;
+$VERSION = '2.000';
 
 # Items to export into caller's namespace by default
 @EXPORT = qw(crc32);

@@ -9,7 +9,7 @@ use XSLoader ();
 
 our @ISA = qw(Exporter);
 
-our $VERSION = 2.000;
+our $VERSION = '2.000';
 
 # Items to export into caller's namespace by default
 our @EXPORT = qw(crc32);
